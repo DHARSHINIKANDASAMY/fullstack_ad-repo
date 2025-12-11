@@ -1,0 +1,38 @@
+nav {
+  background-color: #d38080;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top:0;
+  left:0;
+    width:100%;
+    right:0;
+    z-index: 1000;
+    position:fixed;
+    
+}
+nav ol {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content:flex-end;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav li:hover {
+  color: #f0f0f0;
+}
+
+nav li:active {
+  color: #ffcccc;
+}
